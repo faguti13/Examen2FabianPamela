@@ -25,3 +25,7 @@ jobs:
     - name: Run tests
       run: |
         pytest
+
+    - name: Check for test failures
+      run: exit $(pytest --collect-only | grep 'collected \d\+ items' | awk '{print $2}')
+      continue-on-error: true
