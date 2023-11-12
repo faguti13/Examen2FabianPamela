@@ -1,7 +1,5 @@
 '''Unit Test'''
 
-import pytest
-
 from Examen2 import MiClase
 
 def test_ObtieneValencia():
