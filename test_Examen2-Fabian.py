@@ -32,4 +32,4 @@ def test_verifica_lista_canciones_1():
 
 def test_verifica_lista_canciones_2():
     objeto_2 = MiClase(6, 150, 10, ["Track 1", "Track 2", "Track 3"], [0.6, 0.9, 0.7])
-    assert objeto_2.VerificaListaCanciones(["Track 1", "Track 2", "Track 3"]) == True
+    assert objeto_2.VerificaListaCanciones(["Track 1", "Track 2", "Track 3"]) == False

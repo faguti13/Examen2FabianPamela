@@ -33,7 +33,9 @@ class MiClase:
             if lista [0] == elemento:
                 return True
             else:
-                return Encuentra(lista[1:],elemento)
+                return self.Encuentra(lista[1:],elemento)
+            
+    
 
 ################################################################################################
 #Ejemplo de ejecución
